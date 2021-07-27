@@ -16,5 +16,15 @@ namespace MiniBrowser
         {
             InitializeComponent();
         }
+
+        private void url_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void go_Click(object sender, EventArgs e)
+        {
+            browser.Navigate(url.Text);
+        }
     }
 }

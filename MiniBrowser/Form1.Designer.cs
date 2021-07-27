@@ -29,17 +29,18 @@ namespace MiniBrowser
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.url = new System.Windows.Forms.TextBox();
             this.go = new System.Windows.Forms.Button();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.browser = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
-            // textBox1
+            // url
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(704, 20);
-            this.textBox1.TabIndex = 0;
+            this.url.Location = new System.Drawing.Point(13, 4);
+            this.url.Name = "url";
+            this.url.Size = new System.Drawing.Size(704, 20);
+            this.url.TabIndex = 0;
+            this.url.TextChanged += new System.EventHandler(this.url_TextChanged);
             // 
             // go
             // 
@@ -49,23 +50,25 @@ namespace MiniBrowser
             this.go.TabIndex = 1;
             this.go.Text = "Go";
             this.go.UseVisualStyleBackColor = true;
+            this.go.Click += new System.EventHandler(this.go_Click);
             // 
-            // webBrowser1
+            // browser
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(12, 30);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(776, 408);
-            this.webBrowser1.TabIndex = 2;
+            this.browser.Location = new System.Drawing.Point(12, 30);
+            this.browser.MinimumSize = new System.Drawing.Size(20, 20);
+            this.browser.Name = "browser";
+            this.browser.Size = new System.Drawing.Size(776, 408);
+            this.browser.TabIndex = 2;
+            this.browser.Url = new System.Uri("http://google.com", System.UriKind.Absolute);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.webBrowser1);
+            this.Controls.Add(this.browser);
             this.Controls.Add(this.go);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.url);
             this.Name = "Form1";
             this.Text = "MiniBrowser";
             this.ResumeLayout(false);
@@ -75,9 +78,9 @@ namespace MiniBrowser
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox url;
         private System.Windows.Forms.Button go;
-        private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.Windows.Forms.WebBrowser browser;
     }
 }
 
