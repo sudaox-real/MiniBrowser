@@ -1,0 +1,11 @@
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\bin\Debug\MiniBrowser.exe.config
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\bin\Debug\MiniBrowser.exe
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\bin\Debug\MiniBrowser.pdb
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.csproj.AssemblyReference.cache
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.Form1.resources
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.Properties.Resources.resources
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.csproj.GenerateResource.cache
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.csproj.CoreCompileInputs.cache
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.exe
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.pdb
+C:\Users\Paul\source\repos\MiniBrowser\MiniBrowser\obj\Debug\MiniBrowser.historydiag.resources
