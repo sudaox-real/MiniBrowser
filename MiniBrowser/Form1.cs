@@ -26,5 +26,10 @@ namespace MiniBrowser
         {
             browser.Navigate(url.Text);
         }
+
+        private void browser_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            url.Text = browser.Url.ToString();
+        }
     }
 }
